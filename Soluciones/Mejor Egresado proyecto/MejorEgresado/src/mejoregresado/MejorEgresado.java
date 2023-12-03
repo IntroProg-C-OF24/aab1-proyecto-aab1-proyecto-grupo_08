@@ -27,4 +27,3 @@ public class MejorEgresado {
         System.out.println("DEBIDO A SU GRAN ESFUERZO Y DEDICACION SE LE OTORGA UN RECONOCIMIENTO AL MEJOR EGRESADO" + nombres + "QUE OBTUVO UN PROMEDIO DE:" + promMayor);
     }
 }
-
