@@ -10,7 +10,7 @@ def main():
     print("---------------------")
     print("-Si desea la configuracion por defecto escriba (CPU)")
     print("-Si desea configurar manualmente su partida escriba (YO)")
-    rules = input()
+    rules = input() #SI EL JUGADOR ELIGE CPU SE AUTOESTABLECEN LAS REGLAS, SI ELIGE YO, LAS ELIGE ESTE MISMO
 
     if rules == "CPU":
         intentos = 10
@@ -24,7 +24,7 @@ def main():
         print("2-PISTAS")
         print("-Si quiere recibir pistas sobre el numero secreto escriba (SI)")
         print("-Si no quiere recibir pistas escriba (NO)")
-        pistas = input()
+        pistas = input() #SI RESPONDE "SI" SE LE AVISARA AL JUGADOR SI EL NUMERO INGRESADO ES MAYOR O MENOR AL NUMERO SECRETO   
         print("3-RANGO")
         print("INGRESE EL LIMITE MAYOR: ")
         limMay = int(input())
@@ -40,7 +40,7 @@ def main():
     print(f"INTENTOS: {intentos}  -  PISTAS: {pistas}  -  RANGO: {rango}")
     print("--------------------------------------------------")
 
-    if pistas == "SI":
+    if pistas == "SI": #SI SE ACEPTARON LAS PISTAS, EL JUEGO COMIENZA CON UNA PISTA INICIAL
         if nAdiv % 2 == 0:
             print("TEN EN CUENTA QUE EL NUMERO ES PAR")
         else:
@@ -70,3 +70,35 @@ def main():
 
 if __name__ == "__main__":
     main()
+'''
+---------------------
+CONFIGURE SU PARTIDA
+---------------------
+-Si desea la configuracion por defecto escriba (CPU)
+-Si desea configurar manualmente su partida escriba (YO)
+CPU
+--------------------------------------------------
+INICIO DE LA PARTIDA
+INTENTOS: 10  -  PISTAS: SI  -  RANGO: 1 - 100
+--------------------------------------------------
+TEN EN CUENTA QUE EL NUMERO ES IMPAR
+INGRESE UN NUMERO 1 - 100
+51
+INTENTA CON UNO MAYOR
+TE QUEDAN: 9 intentos
+75
+INTENTA CON UNO MAYOR
+TE QUEDAN: 8 intentos
+91
+INTENTA CON UNO MENOR
+TE QUEDAN: 7 intentos
+85
+INTENTA CON UNO MENOR
+TE QUEDAN: 6 intentos
+81
+GANASTE, LO LOGRASTE EN: 5 INTENTOS
+
+
+** Process exited - Return Code: 0 **
+Press Enter to exit terminal
+'''

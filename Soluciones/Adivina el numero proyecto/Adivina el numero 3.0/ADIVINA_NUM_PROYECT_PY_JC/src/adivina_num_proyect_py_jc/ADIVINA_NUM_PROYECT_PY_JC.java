@@ -67,3 +67,47 @@ public class ADIVINA_NUM_PROYECT_PY_JC {
             System.out.println("PERDISTE");
     }     
 }
+/* 
+---------------------
+CONFIGURE SU PARTIDA
+---------------------
+-Si desea la configuracion por defecto escriba (CPU)
+-Si desea configurar manualmente su partida escriba (YO)
+YO
+1-INTENTOS
+INGRESE EL NUMERO DE INTENTOS: 
+15
+2-PISTAS
+-Si quiere recibir pistas sobre el numero secreto escriba (SI)
+-Si no quiere recibir pistas escriba (NO)
+SI
+3-RANGO
+INGRESE EL LIMITE MAYOR: 
+250
+INGRESE EL LIMITE MENOR: 
+150
+--------------------------------------------------
+INICIO DE LA PARTIDA
+INTENTOS: 15  -  PISTAS: SI  -  RANGO: 150 - 250
+--------------------------------------------------
+TEN EN CUENTA QUE EL NUMERO ES IMPAR
+INGRESE UN NUMERO 150 - 250
+200
+INTENTA CON UNO MAYOR
+TE QUEDAN: 14 intentos
+226
+INTENTA CON UNO MAYOR
+TE QUEDAN: 13 intentos
+239
+INTENTA CON UNO MAYOR
+TE QUEDAN: 12 intentos
+249
+INTENTA CON UNO MENOR
+TE QUEDAN: 11 intentos
+245
+INTENTA CON UNO MAYOR
+TE QUEDAN: 10 intentos
+247
+GANASTE, LO LOGRASTE EN: 6 INTENTOS
+BUILD SUCCESSFUL (total time: 1 minute 28 seconds)
+*/
